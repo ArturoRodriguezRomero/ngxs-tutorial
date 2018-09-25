@@ -1,0 +1,27 @@
+.counter {
+  display: flex;
+  flex-direction: row;
+  border: 1px dotted black;
+  max-width: fit-content;
+  margin: 10px;
+}
+
+.counter button {
+  width: 25px;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  border: 1px dotted black;
+  margin: 10px;
+  padding: 5px;
+}
